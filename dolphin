@@ -1,0 +1,41 @@
+package dolphins;
+
+
+public class Dolphin extends Dolphins{
+    String Name;
+    String SkinColor;
+    String Personality;
+    int swimSpeed;
+    String BodyLength;
+     
+   
+    
+    public void sayName(String MyName)
+    {
+        Name = MyName;
+        System.out.println("My name is " + MyName);
+        
+    }
+    
+    public void biting()
+    {
+        System.out.println("I had to attack this other dolphin from another pod"
+                + "because it was attacking my friend. Now I feel bad.");
+    }
+    
+    public void sleep()
+    {
+        System.out.println("I can't sleep for very long because I can only"
+                + "stay underwater for 15-17 minutes at a time, but my brain can"
+                + "go to half-sleep.");
+    }
+    
+    public void playWithSeaweed()
+    {
+        System.out.println("Even though I'm not a human, I "
+                + "still like to play. I especially enjoy "
+                + "tossing seaweed back and forth with my friends.");
+    }
+    
+    
+}
