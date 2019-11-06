@@ -1,0 +1,34 @@
+package dolphins;
+
+public class PacificWhite extends Dolphins{
+    double stripeSize;
+    double curvinessLevel;
+    String captivity;
+    int Age = 5;
+    String FavFood = "squid";
+    String FavColor = "grey";
+    
+
+
+    public void catchSquid()
+    {
+        
+        System.out.println("Wow i am going to catch a squid with my super speed.");
+        
+    }
+    
+    public void waveAtPeople()
+    {
+        System.out.println("*Waves flipper at people*");       
+    }
+      
+    public void huntForFish()
+    {
+        System.out.println("Today was a rough day for food. Only swam around"
+                + "one school of fish and couldn't find any more. Really wish"
+                + "that I practiced hunting harder in dolphin school.");
+    }
+    
+    public void 
+    
+}
