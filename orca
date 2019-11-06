@@ -1,0 +1,38 @@
+package dolphins;
+
+public class Orca extends Dolphins{
+    private int Weight;
+    private String Diet;
+    private String Name;
+
+
+
+public void GetRidden()
+    {
+        
+        System.out.println("*Human jumps on orca*"
+                + "Zoom come for a ride person.");
+        
+    }
+
+public void Feast()
+    {
+        System.out.println("Seaworld really sucks. I didn't believe "
+                + "that documentary \"Blackfish\" when I watched it but "
+                + "wow do they treat us badly. All I want is to catch "
+                + "my own food.");
+    }
+
+public void Tricks()
+    {
+        System.out.println("I am tired but I'll do a dive just for some fish. "
+                + "Also, it's nice to see a delighted audience.");
+    }
+
+public void Swim()
+    {
+        System.out.println("Man, I wish I could get out of this tank. It's like "
+                + "humans don't know how big the ocean is supposed to be.");
+    }
+   
+}
