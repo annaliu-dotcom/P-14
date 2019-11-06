@@ -1,0 +1,14 @@
+package dolphins;
+
+public class Dolphins {
+
+    public static void main(String[] args) {
+        Dolphin Flipper = new Dolphin();
+        Orca Tilikum = new Orca();
+        PacificWhite Blowhole = new PacificWhite();
+        Blowhole.FavFood = "squid";
+        
+        
+    }
+    
+}
