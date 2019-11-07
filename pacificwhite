@@ -29,6 +29,9 @@ public class PacificWhite extends Dolphins{
                 + "that I practiced hunting harder in dolphin school.");
     }
     
-    public void 
+    public void chill()
+    {
+        System.out.println("Sometimes when I feel tired I just want to chill.")
+    }
     
 }
