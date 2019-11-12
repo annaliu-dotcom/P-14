@@ -1,0 +1,36 @@
+package chapter3;
+import java.util.Scanner;
+/**
+ *
+ * @author aliu8350
+ */
+public class Exercise3 {
+    public static void main(String[] args) {
+        //variables
+        int num;
+        int seconds, minutes, hours, remainder;
+        int SEC_PER_MIN, SEC_PER_HOUR, SEC_PER_SEC; 
+        Scanner Input = new Scanner(System.in);
+          
+        System.out.println("Input any value of time: ");
+        num = Input.nextInt();
+        
+        SEC_PER_MIN = num/60;
+        if(SEC_PER_MIN >=60)
+        {
+            SEC_PER_HOUR = SEC_PER_MIN/60;
+            SEC_PER_MIN = SEC_PER_HOUR%60;
+            SEC_PER_SEC = SEC_PER_MIN%60;
+        }
+        
+        else
+        {
+            SEC_PER_HOUR = 0;
+            SEC_PER_SEC = SEC_PER_MIN%60;
+        }
+        
+        System.out.println(num + " seconds = " + SEC_PER_HOUR + " hours, " + SEC_PER_MIN + " minutes, and " + SEC_PER_SEC + " seconds.");
+        
+    }
+    
+}
